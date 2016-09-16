@@ -5,7 +5,20 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', true);
-$questions = array(array('1. Teacher permission is required before using the portable drill.', array('A. True','B. False'),1), array('2. Eye protection must be worn when using the portable drill.', array('A. True','B. False'),2), array('3. Disconnect the power before changing the bit in a portable drill.', array('A. True','B. False'),3), array('4. Remove the chuck key immediately after using it.', array('A. True','B. False'),4), array('5. Make sure that the switch is in the _____ position before plugging the drill in.', array('A. off','B. on'),5), array('6. When using the portable drill, all work pieces must be', array('A. securely clamped or held in a vice.','B. nailed to the floor.','C. glued to the table.','D. none of the above.'),6), array('7. Hold the portable drill firmly at all times.', array('A. True','B. False'),7), array('8. If a work piece is caught by the drill', array('A. stop it with your hands.','B. insert the chuck key immediately.','C. release the trigger switch.','D. all of the above statements are correct.'),8), array('9. To prevent accidents while using the portable drill, you should', array('A. apply steady, straight pressure on the drill.','B. ease up on the pressure when the drill bit begins to break through the metal.','C. turn off the power and hold the drill until it comes to a dead stop.','D. all of the above.'),9), array('10. Large drills should turn at slow speeds.', array('A. True','B. False'),10), array('11. ________ may cause accidents around machinery.', array('A. Unsecured long hair','B. Loose clothing','C. Loose jewelry','D. All of the above.'),11), array('12. If you are uncertain about the set-up or any aspect of the operation, you should', array('A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'),12));
+$questions = array(
+	array('1. Teacher permission is required before using the portable drill.', array('A. True','B. False'),1), 
+	array('2. Eye protection must be worn when using the portable drill.', array('A. True','B. False'),2), 
+	array('3. Disconnect the power before changing the bit in a portable drill.', array('A. True','B. False'),3), 
+	array('4. Remove the chuck key immediately after using it.', array('A. True','B. False'),4), 
+	array('5. Make sure that the switch is in the _____ position before plugging the drill in.', array('A. off','B. on'),5), 
+	array('6. When using the portable drill, all work pieces must be', array('A. securely clamped or held in a vice.','B. nailed to the floor.','C. glued to the table.','D. none of the above.'),6), 
+	array('7. Hold the portable drill firmly at all times.', array('A. True','B. False'),7), 
+	array('8. If a work piece is caught by the drill', array('A. stop it with your hands.','B. insert the chuck key immediately.','C. release the trigger switch.','D. all of the above statements are correct.'),8), 
+	array('9. To prevent accidents while using the portable drill, you should', array('A. apply steady, straight pressure on the drill.','B. ease up on the pressure when the drill bit begins to break through the metal.','C. turn off the power and hold the drill until it comes to a dead stop.','D. all of the above.'),9), 
+	array('10. Large drills should turn at slow speeds.', array('A. True','B. False'),10), 
+	array('11. ________ may cause accidents around machinery.', array('A. Unsecured long hair','B. Loose clothing','C. Loose jewelry','D. All of the above.'),11), 
+	array('12. If you are uncertain about the set-up or any aspect of the operation, you should', array('A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'),12)
+);
 //shuffle($questions);
 $length = count($questions);
 $results = "results.php?tq='$length'";
