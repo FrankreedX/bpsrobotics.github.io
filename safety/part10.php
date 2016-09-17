@@ -6,19 +6,100 @@
 error_reporting(E_ALL);
 ini_set('display_errors', true);
 $questions = array(
-	array('1. Teacher permission is required before using the bandsaw.', array('A. True','B. False'),1), 
-	array('2. Eye protection must be worn when working around the bandsaw.', array('A. True','B. False'),2), 
-	array('3. Adjustments must be made with the machine at a dead stop.', array('A. True','B. False'),3), 
-	array('4. Before starting', array('A. adjust the guard to within 1/8 inch of your work.','B. plan to avoid backing out of a kerf.','C. make relief cuts if necessary.','D. All of the above are correct.'),4), 
-	array('5. Use a push stick, special "v" jig, or holding device if your fingers will come closer than ______ inches to the blade.', array('A. 1/4','B. 3','C. 16','D. 2'),5), 
-	array('6. When cutting unusual pieces of metal, you should', array('A. clamp it securely.','B. have the teacher check your set-up.','C. hold the work piece on either side of the cutting line.','D. All the above are correct.'),6), 
-	array('7. No one should stand on the right side of the bandsaw because', array('A. the lighting is better.','B. you can feed the stock faster.','C. should a blade break, pieces may fly in that direction.','D. both A and B are faster.'),7), 
-	array('8. When using the horizontal bandsaw, you should make sure that', array('A. the coolant does not spill on the floor.','B. the coolant is flowing over the band at the saw kerf.','C. you dont hold onto short pieces that are being cut off.','D. All of the above.'),8), 
-	array('9. If the blade breaks, shut off the machine and call the teacher.', array('A. True','B. False'),9), 
-	array('10. When finished cutting,', array('A. turn the machine off.','B. brake the machine to a stop.','C. clean the floor of coolant, chips, and small pieces of metal.','D. All of the above.'),10), 
-	array('11. Be careful not to crowd, cramp, twist, or bend the saw blade.', array('A. True','B. False'),11), 
-	array('12. If you are uncertain about the set-up or any aspect of the operation, you should', array('A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'),12), 
-	array('13. When clearing your machine of metal chips or handling a freshly cut piece of metal you should', array('A. avoid sharp edges that can cut.','B. never use your bare hands.','C. clean your machine with a brush.','D. All of the above.'),13)
+	array('1. Teacher permission is required before using the bandsaw.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	1), 
+	array('2. Eye protection must be worn when working around the bandsaw.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	2), 
+	array('3. Adjustments must be made with the machine at a dead stop.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	3), 
+	array('4. Before starting', 
+	array(
+			'A. adjust the guard to within 1/8 inch of your work.',
+			'B. plan to avoid backing out of a kerf.',
+			'C. make relief cuts if necessary.',
+			'D. All of the above are correct.'
+		),
+	4), 
+	array('5. Use a push stick, special "v" jig, or holding device if your fingers will come closer than ______ inches to the blade.', 
+		array(
+			'A. 1/4',
+			'B. 3',
+			'C. 16',
+			'D. 2'
+		),
+	5), 
+	array('6. When cutting unusual pieces of metal, you should', 
+		array(
+			'A. clamp it securely.',
+			'B. have the teacher check your set-up.',
+			'C. hold the work piece on either side of the cutting line.',
+			'D. All the above are correct.'
+		),
+	6), 
+	array('7. No one should stand on the right side of the bandsaw because', 
+		array(
+			'A. the lighting is better.',
+			'B. you can feed the stock faster.',
+			'C. should a blade break, pieces may fly in that direction.',
+			'D. both A and B are faster.'
+		),
+	7), 
+	array('8. When using the horizontal bandsaw, you should make sure that', 
+		array(
+			'A. the coolant does not spill on the floor.',
+			'B. the coolant is flowing over the band at the saw kerf.',
+			'C. you dont hold onto short pieces that are being cut off.',
+			'D. All of the above.'
+		),
+	8), 
+	array('9. If the blade breaks, shut off the machine and call the teacher.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	9), 
+	array('10. When finished cutting,', 
+		array(
+			'A. turn the machine off.',
+			'B. brake the machine to a stop.',
+			'C. clean the floor of coolant, chips, and small pieces of metal.',
+			'D. All of the above.'
+		),
+	10), 
+	array('11. Be careful not to crowd, cramp, twist, or bend the saw blade.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	11), 
+	array('12. If you are uncertain about the set-up or any aspect of the operation, you should', 
+		array(
+			'A. go ahead and try the operation.',
+			'B. check with your teacher before proceeding.',
+			'C. call the machine manufacturer.',
+			'D. None of the above.'
+		),
+	12), 
+	array('13. When clearing your machine of metal chips or handling a freshly cut piece of metal you should', 
+		array(
+			'A. avoid sharp edges that can cut.',
+			'B. never use your bare hands.',
+			'C. clean your machine with a brush.',
+			'D. All of the above.'
+		),
+	13)
 );
 //shuffle($questions);
 $length = count($questions);

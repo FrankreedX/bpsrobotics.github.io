@@ -6,14 +6,70 @@
 error_reporting(E_ALL);
 ini_set('display_errors', true);
 $questions = array(
-	array('1. Procedures to follow before actually using the metal squaring shear should include', array('A. obtaining permission.','B. wearing proper eye protection.','C. making sure safety guard is in place.','D. all of the above.'),1), 
-	array('2. Feed and operate the squaring shear from the', array('A. side.','B. back.','C. operators position.','D. none of the above.'),2), 
-	array('3. Always keep your fingers at least _____ away from the pressure bar and blade.', array('A. 1 foot','B. 1 meter','C. 4 inches','D. 1 gauge'),3), 
-	array('4. Allow small pieces to drop; do not attempt to catch them.', array('A. True','B. False'),4), array('5. Remove burrs before working; gloves are required for handling large pieces.', 
-	array('A. True','B. False'),5), array('6. Place scraps or trimmings in metal waste container and return machine to normal position.', array('A. True','B. False'),6), 
-	array('7. Whenever two people are needed to operate the shear', array('A. one is the operator, the other is the teacher.','B. the operator is responsible for informing the teacher when cuts are to be made.','C. it is only the operator who steps on the foot pedal.','D. all of the above.'),7), 
-	array('8. If you are uncertain about the set-up or any aspect of the operation, you should', array('A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'),8), 
-	array('9. Never operate any tool without the appropriate guard in place.', array('A. True','B. False'),9)
+	array('1. Procedures to follow before actually using the metal squaring shear should include', 
+		array(
+			'A. obtaining permission.',
+			'B. wearing proper eye protection.',
+			'C. making sure safety guard is in place.',
+			'D. all of the above.'
+		),
+	1), 
+	array('2. Feed and operate the squaring shear from the', 
+		array(
+			'A. side.',
+			'B. back.',
+			'C. operators position.',
+			'D. none of the above.'
+		),
+	2), 
+	array('3. Always keep your fingers at least _____ away from the pressure bar and blade.', 
+		array(
+			'A. 1 foot',
+			'B. 1 meter',
+			'C. 4 inches',
+			'D. 1 gauge'
+		),
+	3), 
+	array('4. Allow small pieces to drop; do not attempt to catch them.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	4), 
+	array('5. Remove burrs before working; gloves are required for handling large pieces.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	5), 
+	array('6. Place scraps or trimmings in metal waste container and return machine to normal position.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	6), 
+	array('7. Whenever two people are needed to operate the shear', 
+		array(
+			'A. one is the operator, the other is the teacher.',
+			'B. the operator is responsible for informing the teacher when cuts are to be made.',
+			'C. it is only the operator who steps on the foot pedal.',
+			'D. all of the above.'
+		),
+	7), 
+	array('8. If you are uncertain about the set-up or any aspect of the operation, you should', 
+		array(
+			'A. go ahead and try the operation.',
+			'B. check with your teacher before proceeding.',
+			'C. call the machine manufacturer.',
+			'D. None of the above.'
+		),
+	8), 
+	array('9. Never operate any tool without the appropriate guard in place.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	9)
 );
 //shuffle($questions);
 $length = count($questions);

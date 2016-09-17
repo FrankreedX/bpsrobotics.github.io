@@ -6,16 +6,80 @@
 error_reporting(E_ALL);
 ini_set('display_errors', true);
 $questions = array(
-	array('1. Before you operate the gas forge you must', array('A. obtain permission from the teacher.','B. pass the safety test on the gas forge.','C. wear eye protection.','D. all of the above.'),1), 
-	array('2. The lid to the gas forge must be open before lighting it.', array('A. True','B. False'),2), 
-	array('3. Always ____________________ the gas forge before lighting it.', array('A. walk away from','B. purge','C. replace the firebox in','D. insert the air control in'),3), 
-	array('4. Hot metal left unattended should be marked __________ with chalk.', array('A. with an "x"','B. with your name','C. "hot"','D. none of the above'),4),
-	array('5. When working with the gas forge you should', array('A. consider all metal and tongs as hot.','B. wear leather gloves.','C. use tongs to handle hot metal.','D. all of the above.'),5), 
-	array('6. A container of water near the forge is used to', array('A. cool hot metal.','B. water the flowers.','C. provide air conditioning.','D. none of the above.'),6), 
-	array('7. If you are uncertain about the set-up or any aspect of the operation, you should', array('A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'),7), 
-	array('8. Avoid steam burns when quenching hot metal by keep exposed skin well away from quenching water.', array('A. True','B. False'),8), 
-	array('9. Which of the following must be worn over your safety glasses while operating the gas forge?', array('A. Sun glasses.','B. A welders hat.','C. A sun visor.','D. Metal screen face shield.'),9), 
-	array('10. Hammering on the anvil should only be done when forging material.', array('A. True','B. False'),10)
+	array('1. Before you operate the gas forge you must', 
+		array(
+			'A. obtain permission from the teacher.',
+			'B. pass the safety test on the gas forge.',
+			'C. wear eye protection.',
+			'D. all of the above.'
+		),
+	1), 
+	array('2. The lid to the gas forge must be open before lighting it.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	2), 
+	array('3. Always ____________________ the gas forge before lighting it.', 
+		array(
+			'A. walk away from',
+			'B. purge',
+			'C. replace the firebox in',
+			'D. insert the air control in'
+		),
+	3), 
+	array('4. Hot metal left unattended should be marked __________ with chalk.', 
+		array(
+			'A. with an "x"',
+			'B. with your name',
+			'C. "hot"',
+			'D. none of the above'
+		),
+	4),
+	array('5. When working with the gas forge you should', 
+		array(
+			'A. consider all metal and tongs as hot.',
+			'B. wear leather gloves.',
+			'C. use tongs to handle hot metal.',
+			'D. all of the above.'
+		),
+	5), 
+	array('6. A container of water near the forge is used to', 
+		array(
+			'A. cool hot metal.',
+			'B. water the flowers.',
+			'C. provide air conditioning.',
+			'D. none of the above.'
+		),
+	6), 
+	array('7. If you are uncertain about the set-up or any aspect of the operation, you should', 
+		array(
+			'A. go ahead and try the operation.',
+			'B. check with your teacher before proceeding.',
+			'C. call the machine manufacturer.',
+			'D. None of the above.'
+		),
+	7), 
+	array('8. Avoid steam burns when quenching hot metal by keep exposed skin well away from quenching water.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	8), 
+	array('9. Which of the following must be worn over your safety glasses while operating the gas forge?',
+		array(
+			'A. Sun glasses.',
+			'B. A welders hat.',
+			'C. A sun visor.',
+			'D. Metal screen face shield.'
+		),
+	9), 
+	array('10. Hammering on the anvil should only be done when forging material.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	10),
 );
 //shuffle($questions);
 $length = count($questions);

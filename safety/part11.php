@@ -6,26 +6,136 @@
 error_reporting(E_ALL);
 ini_set('display_errors', true);
 $questions = array(
-	array('1. Teacher permission is required before using the metal lathe.', array('A. True','B. False'),1), 
-	array('2. Eye protection must be worn when working around the metal lathe.', array('A. True','B. False'),2), 
-	array('3. Adjustments must be made with the machine at a dead stop except', array('A. variable speed which must be set with machine running.','B. when taking work from between centers.','C. when removing chuck from head stock.','D. both B and C above.'),3), 
-	array('4. When changing a chuck use', array('A. a board to help prevent smashed fingers.','B. a wood block under it to prevent damage to the ways.','C. A and B are correct.','D. None of the above are correct.'),4), 
-	array('5. The chuck key must be removed immediately after using it.', array('A. True','B. False'),5), 
-	array('6. Attached chips are sharp and can cause injury.', array('A. True','B. False'),6), 
-	array('7. To remove chips, use a brush, not compressed air.', array('A. True','B. False'),7), 
-	array('8. Irregular shapes take', array('A. special setup.','B. special equipment.','C. teacher supervision.','D. All of the above.'),8), 
-	array('9. The depth of cut us regulated by', array('A. size of metal.','B. type of metal.','C. both size and type of metal.','D. None of the above.'),9), 
-	array('10. It is necessary to secure work firmly in chuck or between centers.', array('A. True','B. False'),10), 
-	array('11. The tool bit should be ground properly and set on center before starting the lathe.', array('A. True','B. False'),11), 
-	array('12. Keep hands away from all chips and revolving parts.', array('A. True','B. False'),12), 
-	array('13. Do not measure stock while it is rotating.', array('A. True','B. False'),13), 
-	array('14. The chuck should be turned by hand before starting.', array('A. True','B. False'),14), 
-	array('15. Remove jewelry, eliminate loose clothing, and secure long hair before operating the metal lathe.', array('A. True','B. False'),15), 
-	array('16. If you are uncertain about the set-up or any aspect of the operation, you should', array('A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'),16), 
-	array('17. Chatter indicates something is wrong. Stop machine and check setup, tool bit, etc.', array('A. True','B. False'),17), 
-	array('18. Allow machine to reach a dead stop before reversing rotation.', array('A. True','B. False'),18), 
-	array('19. Use extreme caution when removing tool holder and tool post for filing and polishing.', array('A. True','B. False'),19), 
-	array('20. Have your teacher check the speed setting before starting the operation.', array('A. True','B. False',),20)
+	array('1. Teacher permission is required before using the metal lathe.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	1), 
+	array('2. Eye protection must be worn when working around the metal lathe.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	2), 
+	array('3. Adjustments must be made with the machine at a dead stop except', 
+		array(
+			'A. variable speed which must be set with machine running.',
+			'B. when taking work from between centers.',
+			'C. when removing chuck from head stock.',
+			'D. both B and C above.'
+		),
+	3), 
+	array('4. When changing a chuck use', 
+		array(
+			'A. a board to help prevent smashed fingers.',
+			'B. a wood block under it to prevent damage to the ways.',
+			'C. A and B are correct.',
+			'D. None of the above are correct.'
+		),
+	4), 
+	array('5. The chuck key must be removed immediately after using it.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	5), 
+	array('6. Attached chips are sharp and can cause injury.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	6), 
+	array('7. To remove chips, use a brush, not compressed air.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	7), 
+	array('8. Irregular shapes take', 
+		array(
+			'A. special setup.',
+			'B. special equipment.',
+			'C. teacher supervision.',
+			'D. All of the above.'
+		),
+	8), 
+	array('9. The depth of cut us regulated by',
+		array(
+			'A. size of metal.',
+			'B. type of metal.',
+			'C. both size and type of metal.',
+			'D. None of the above.'
+		),
+	9), 
+	array('10. It is necessary to secure work firmly in chuck or between centers.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	10), 
+	array('11. The tool bit should be ground properly and set on center before starting the lathe.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	11), 
+	array('12. Keep hands away from all chips and revolving parts.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	12), 
+	array('13. Do not measure stock while it is rotating.',
+		array(
+			'A. True',
+			'B. False'
+		),
+	13), 
+	array('14. The chuck should be turned by hand before starting.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	14), 
+	array('15. Remove jewelry, eliminate loose clothing, and secure long hair before operating the metal lathe.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	15), 
+	array('16. If you are uncertain about the set-up or any aspect of the operation, you should', 
+		array(
+			'A. go ahead and try the operation.',
+			'B. check with your teacher before proceeding.',
+			'C. call the machine manufacturer.',
+			'D. None of the above.'
+		),
+	16), 
+	array('17. Chatter indicates something is wrong. Stop machine and check setup, tool bit, etc.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	17), 
+	array('18. Allow machine to reach a dead stop before reversing rotation.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	18), 
+	array('19. Use extreme caution when removing tool holder and tool post for filing and polishing.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	19), 
+	array('20. Have your teacher check the speed setting before starting the operation.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	20),
 );
 //shuffle($questions);
 $length = count($questions);

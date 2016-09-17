@@ -6,17 +6,86 @@
 error_reporting(E_ALL);
 ini_set('display_errors', true);
 $questions = array(
-	array('1. Teacher permission is required before using the metal cut-off saw.', array('A. True','B. False'),1), 
-	array('2. Proper eye safety consists of safety glasses with side shields and face shield.', array('A. True','B. False'),2), 
-	array('3. What must be done with the metal cut-off saw at a dead stop?', array('A. adjustments','B. measurements','C. all clamping','D. All of the above.'),3), 
-	array('4. It is desirable to test a new cut-off wheel for cracks by using the ring test before mounting.', array('A. True','B. False'),4), 
-	array('5. Blotters are necessary between wheel and flanges because', array('A. the wheel is held more firmly.','B. the wheel is in better alignment.','C. the blotters absorb shock better than steel.','D. All of the above.'),5), 
-	array('6. Tightening of flanges of unequal diameter may cause', array('A. the wheel to cup.','B. the wheel to warp.','C. the wheel to become misaligned.','D. the wheel to break.'),6), 
-	array('7. Tighten the spindle nut carefully. The wheel can be broken by over tightening.', array('A. True','B. False'),7), 
-	array('8. Allow the blade to reach __________ speed before starting the cut.', array('A. half','B. two-thirds','C. full','D. three-fourths'),8), 
-	array('9. Crowding the machine beyond its capacity can cause', array('A. overheating.','B. breakage.','C. irregular cuts.','D. All of the above.'),9), 
-	array('10. Keep floor area around the metal cut-off saw', array('A. clear of scraps.','B. cleaned of coolant spills.','C. clear of unused materials.','D. All of the above.'),10), 
-	array('11. If you are uncertain about the set-up or any aspect of the operation, you must', array('A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'),11)
+	array('1. Teacher permission is required before using the metal cut-off saw.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	1), 
+	array('2. Proper eye safety consists of safety glasses with side shields and face shield.',
+		array(
+			'A. True',
+			'B. False'
+		),
+	2), 
+	array('3. What must be done with the metal cut-off saw at a dead stop?',
+		array(
+			'A. adjustments',
+			'B. measurements',
+			'C. all clamping',
+			'D. All of the above.'
+		),
+	3), 
+	array('4. It is desirable to test a new cut-off wheel for cracks by using the ring test before mounting.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	4), 
+	array('5. Blotters are necessary between wheel and flanges because',
+		array(
+			'A. the wheel is held more firmly.',
+			'B. the wheel is in better alignment.'.
+			'C. the blotters absorb shock better than steel.',
+			'D. All of the above.'
+		),
+	5), 
+	array('6. Tightening of flanges of unequal diameter may cause',
+		array(
+			'A. the wheel to cup.',
+			'B. the wheel to warp.',
+			'C. the wheel to become misaligned.',
+			'D. the wheel to break.'
+		),
+	6), 
+	array('7. Tighten the spindle nut carefully. The wheel can be broken by over tightening.', 
+		array(
+			'A. True',
+			'B. False'
+		),
+	7), 
+	array('8. Allow the blade to reach __________ speed before starting the cut.', 
+		array(
+			'A. half',
+			'B. two-thirds',
+			'C. full',
+			'D. three-fourths'
+		),
+	8), 
+	array('9. Crowding the machine beyond its capacity can cause', 
+		array(
+			'A. overheating.',
+			'B. breakage.',
+			'C. irregular cuts.',
+			'D. All of the above.'
+		),
+	9), 
+	array('10. Keep floor area around the metal cut-off saw',
+		array(
+			'A. clear of scraps.',
+			'B. cleaned of coolant spills.',
+			'C. clear of unused materials.',
+			'D. All of the above.'
+		),
+	10), 
+	array('11. If you are uncertain about the set-up or any aspect of the operation, you must', 
+		array(
+			'A. go ahead and try the operation.',
+			'B. check with your teacher before proceeding.',
+			'C. call the machine manufacturer.',
+			'D. None of the above.'
+		),
+	11)
 );
 //shuffle($questions);
 $length = count($questions);
