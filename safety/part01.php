@@ -95,8 +95,8 @@ $questions = array(
 		),
 	12), 
 	array('13. You will be held responsible for vandalism.', 
-		array('
-			A. True', 
+        array(
+            'A. True', 
 			'B. False'
 		),
 	13), 
