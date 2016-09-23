@@ -63,8 +63,8 @@ $questions = array(
 		),
 	8), 
 	array('9. Electrical tools require special rules such as:', 
-		array('
-			A. Being sure the switch is in the "off" position before you "plug in" the cord.', 
+		array(
+			'A. Being sure the switch is in the "off" position before you "plug in" the cord.', 
 			'B. Making sure the area is clean and dry.', 
 			'C. Removing any flammable liquids from area.', 
 			'D. All of the above.'

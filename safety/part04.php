@@ -85,8 +85,8 @@ $questions = array(
 		),
 	11), 
 	array('12. When the machine is at a dead stop use ________ to remove chips and shavings.', 
-		array('
-			A. hands',
+		array(
+			'A. hands',
 			'B. cloth',
 			'C. brush',
 			'D. welders gloves'

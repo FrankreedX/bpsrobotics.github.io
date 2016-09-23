@@ -37,8 +37,8 @@ $questions = array(
 		),
 	5), 
 	array('6. When using the portable drill, all work pieces must be', 
-		array('
-			A. securely clamped or held in a vice.',
+		array(
+			'A. securely clamped or held in a vice.',
 			'B. nailed to the floor.',
 			'C. glued to the table.',
 			'D. none of the above.'
@@ -73,8 +73,8 @@ $questions = array(
 		),
 	10), 
 	array('11. ________ may cause accidents around machinery.', 
-		array('
-			A. Unsecured long hair',
+    array(
+			'A. Unsecured long hair',
 			'B. Loose clothing',
 			'C. Loose jewelry',
 			'D. All of the above.'
