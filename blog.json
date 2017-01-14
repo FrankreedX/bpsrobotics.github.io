@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Test Blog Post Name",
+    "date": "January 1st, 2017",
+    "text": "Hello, this is just a test blog post.",
+    "image": "http://cdn.bpsrobotics.org/some_cool_image"
+  }
+]
