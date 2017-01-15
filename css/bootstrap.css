@@ -6,12 +6,20 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
-  font-family: sans-serif;
+  font-family: Roboto;
+  src: url('../fonts/Roboto-Regular.ttf');
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+  height:200%;
+  /* background: #1B459B; */
+  min-height: 200%;
+  background: linear-gradient(0deg, #1B459B 0%,#ffffff 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-repeat: repeat;
+
 }
 body {
   margin: 0;
+  height: 0%
 }
 article,
 aside,
@@ -241,6 +249,8 @@ th {
   }
   .navbar {
     display: none;
+    color: #FFFFFF;
+    background-color: #1B459B;
   }
   .btn > .caret,
   .dropup > .btn > .caret {
@@ -1083,7 +1093,8 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  src: url('../fonts/Roboto-Regular.ttf');
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -3080,6 +3091,12 @@ fieldset[disabled] a.btn {
   background-color: #e6e6e6;
   border-color: #adadad;
 }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
 .btn-default:active:hover,
 .btn-default.active:hover,
 .open > .dropdown-toggle.btn-default:hover,
@@ -3476,6 +3493,7 @@ input[type="button"].btn-block {
 }
 .collapse {
   display: none;
+
 }
 .collapse.in {
   display: block;
@@ -4178,6 +4196,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-header {
     float: left;
+    font-family: Agency FB
+    src: url('../fonts/agencyfb.ttf');
+    font-weight: bold; 
+    font-size: 300%; 
+    color: #1B459B; 
+    background-color: #1B459B;
   }
 }
 .navbar-collapse {
@@ -4266,6 +4290,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;
+  background-color: #1B459B;
+  color:  #1B459B;
 }
 .navbar-fixed-bottom {
   bottom: 0;
@@ -4278,7 +4304,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
+  font-family: Agency FB; 
+  font-weight: bold;
+  font-size: 200%;
+  src: url('../fonts/agencyfb.ttf');
+  font-size: 100%;
+  color: #FFFFFF;
 }
+
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
@@ -4592,9 +4625,12 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse {
   background-color: #222;
   border-color: #080808;
+  background-color: #1B459B;
+  color: #1B459B;
+  border-color: #1B459B;
 }
 .navbar-inverse .navbar-brand {
-  color: #9d9d9d;
+  color: #FFFFFF;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
@@ -4602,10 +4638,10 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
-  color: #9d9d9d;
+  color: #FFFFFF;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #9d9d9d;
+  color: #FFFFFF;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -4637,6 +4673,10 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
   border-color: #101010;
+  font-family: Agency FB;
+  font-weight: bold;
+  font-size: 200%;
+  src: url('../fonts/agencyfb.ttf');
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
@@ -5991,7 +6031,8 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  src: url('../fonts/Roboto-Regular.ttf');
   font-size: 12px;
   font-style: normal;
   font-weight: normal;
@@ -6110,7 +6151,8 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  src: url('../fonts/Roboto-Regular.ttf');
   font-size: 14px;
   font-style: normal;
   font-weight: normal;
@@ -6379,7 +6421,8 @@ button.close {
 .carousel-control .icon-next {
   width: 20px;
   height: 20px;
-  font-family: serif;
+  font-family: Roboto;
+  src: url('../fonts/Roboto-Regular.ttf');
   line-height: 1;
 }
 .carousel-control .icon-prev:before {
