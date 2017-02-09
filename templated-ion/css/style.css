@@ -1085,3 +1085,9 @@
 		#footer .icons a {
 			color: #bbb;
 		}
+
+/* Misc */
+
+	#bannerTextOutline {      /*Make banner text stand out*/ 
+		background-color: rgba(0,0,0,0.6); 
+	}
