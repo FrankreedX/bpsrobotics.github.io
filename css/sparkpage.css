@@ -1,0 +1,74 @@
+#sparklogo {
+    width: 30%;
+    height: auto;
+    margin: auto;
+    display: block;
+    margin: auto;
+}
+#subtitle {
+    padding-right: 2%;
+    font-size: 40px;
+    height: auto;
+    margin: auto;
+    display: block;
+    margin: auto;
+}
+/*  */
+/* #sparklogodiv { */
+/*     width: 100%; */
+/*     height: auto; */
+/*     margin: auto; */
+/*     display: block; */
+/*     top: 50%; */
+/*     left: 50%; */
+/*     margin: -100px 0 0 -150px; */
+/* } */
+
+#signup {
+    width: 15%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin: auto;
+    font-size: 50px;
+    float: center;
+    box-pack:center;
+    box-align:center;
+    position: relative;
+}
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff; 
+    background-color: rgba(0,0,0,0.4);      
+}   
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active { 
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}   
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}   
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}   
+
+.btn-lg,
+.btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+
