@@ -5,6 +5,7 @@
     display: block;
     margin: auto;
 }
+
 #subtitle {
     padding-right: 2%;
     font-size: 40px;
@@ -13,6 +14,12 @@
     display: block;
     margin: auto;
 }
+
+.classname {
+    margin-bottom: 5px;
+}
+
+
 /*  */
 /* #sparklogodiv { */
 /*     width: 100%; */
