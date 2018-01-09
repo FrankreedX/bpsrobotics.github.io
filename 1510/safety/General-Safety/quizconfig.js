@@ -13,7 +13,7 @@ var correctchoices=new Array()
 	correctchoices[9]='d'
 	correctchoices[10]='a'
 	correctchoices[11]='b' 
-	correctchoices[12]='d' 
+	correctchoices[12]='b' 
 	correctchoices[13]='a'
 
 
