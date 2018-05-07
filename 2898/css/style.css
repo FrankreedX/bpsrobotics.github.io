@@ -24,8 +24,8 @@
 
 html {
     height: 100%;
-    font-family: 'century gothic', arial, sans-serif;
-    background-color: #303030;
+    font-family: 'agencyfb', roboto, sans-serif;
+    background-color: #c4c4c4;
 }
 
 * {
@@ -35,15 +35,15 @@ html {
 }
 
 header {
-    color: #BBBBBB;
-    background: radial-gradient(#110C91, #0B0775);
+    color: white;
+    background: #1A237E;
     width: 100%;
     margin: auto;
     overflow: auto;
 }
 
 main {
-    color: #BBBBBB;
+    color: black;
     background-color: #060354;
 }
 
@@ -88,11 +88,11 @@ main ul {
 }
 
 main a {
-    color: #6460D6;
+    color: #4a45ea;
 }
 
 main a:visited {
-    color: #423EB4;
+    color: #4d49d0;
 }
 
 main a:hover {
@@ -113,13 +113,18 @@ h1, h2, h3, h4, h5, h6 {
     padding: 15px 0 5px 0;
 }
 
+#title {
+    font: 'agencyfb';
+    color: white;
+}
+
 main h1, main h2, main h3, main h4, main h5, main h6 {
-    color: #FE7100;
+    color: #000000;
 }
 
 #first-logo {
-    width: 170px;
-    height: 120px;
+    width: 150px;
+    height: 130px;
     padding-top: 10px;
 }
 
@@ -176,7 +181,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: linear-gradient(#0B0775, #0B0775);
+    background: #1C4196;
 }
 
 nav li {
