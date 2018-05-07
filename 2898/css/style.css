@@ -20,11 +20,17 @@
     }
 }
 
+/* Fonts */
+agency-fb{
+  font-family: agencyfb;
+  src: url(agency-fb.ttf)
+}
+
 /* Stylesheet */
 
 html {
     height: 100%;
-    font-family: 'agencyfb', roboto, sans-serif;
+    font-family: agencyfb, roboto, sans-serif;
     background-color: #c4c4c4;
 }
 
