@@ -21,16 +21,17 @@
 }
 
 /* Fonts */
-agency-fb{
-  font-family: agencyfb;
-  src: url(agency-fb.ttf)
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('http://allfont.net/allfont.css?fonts=agency-fb');
+@import url('http://allfont.net/allfont.css?fonts=agency-fb-bold');
+  
+  
 
 /* Stylesheet */
 
 html {
     height: 100%;
-    font-family: agencyfb, roboto, sans-serif;
+    font-family: /*'Agency FB', */roboto, sans-serif;
     background-color: #c4c4c4;
 }
 
@@ -120,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #title {
-    font: 'agencyfb';
+    font: 'Agency FB';
     color: white;
 }
 
