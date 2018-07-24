@@ -558,7 +558,7 @@
 	}
 
 		#header .container {
-			position: relative;
+			/*position: relative;*/
 		}
 
 	.homepage #logo {
@@ -577,7 +577,7 @@
 		text-transform: uppercase;
 		font-size: 2em;
 		font-weight: 400;
-		font-family: 'sofachrome rg', sans-serif;
+		font-family: 'sofachrome', sans-serif;
 	}
 
 		#logo h1 {
