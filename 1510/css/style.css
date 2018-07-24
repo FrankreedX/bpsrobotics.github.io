@@ -849,7 +849,16 @@
 		position:fixed;
 		bottom:20px;
 		right:10px;
-	}/*
+	}
+
+	.mentors .wrapper.style5 {
+		/*background: #C21807;*/
+		background: #FFF;
+		text-align: center;
+		color: black;
+	}
+
+	/*
 	.scroll {
 		position:absolute;
 		right:20px;
