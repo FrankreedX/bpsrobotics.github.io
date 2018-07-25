@@ -3,7 +3,7 @@ Homepage for BPSRobotics and Teams 1510 and 2898
 
 Webmaster:				[@philiparola](https://github.com/philiparola)  
 Frontpage maintainer:	[@philiparola](https://github.com/philiparola)  
-Team 1510 maintainer:	[@FrankreedX](https://github.com/FrankreedX),[@ariel-c](https://github.com/ariel-c)
+Team 1510 maintainer:	[@FrankreedX](https://github.com/FrankreedX),[@ariel-c](https://github.com/ariel-c)  
 Team 2898 maintainer:	[@Dat1AZNBanana](https://github.com/Dat1AZNBanana)  
 ### GitHub Pages Note
 While we use GitHub Pages just because we can, some advanced website features will not work, such as our PHP apps (ie: safety tests).  As such, we do not recommend you use the GitHub pages site as a link to give out to prospective students, mentors, or parents.  It's just a convenience for us developers.
