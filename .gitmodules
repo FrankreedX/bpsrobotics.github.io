@@ -1,3 +1,0 @@
-[submodule "apps/phpapps"]
-	path = apps/phpapps
-	url = https://github.com/bpsrobotics/phpapps
