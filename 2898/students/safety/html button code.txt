@@ -1,0 +1,30 @@
+For True False Questions
+								<br>
+								<div class="col-4 col-12-small">
+										<input id="Q2S1" value="a" name="question2" type="radio">
+										<label for="Q2S1">A. True</label>
+									</div>
+							<div class="col-4 col-12-small">
+									<input id="Q2S2" value="b" name="question2" type="radio">
+									<label for="Q2S2">B. False</label>
+								</div>
+
+4 question 
+
+							<br>
+								<div class="col-4 col-12-small">
+										<input id="Q3S1" value="a" name="question3" type="radio">
+										<label for="Q3S1">A. Receiving instruction and passing each safety test with 100% accuracy.</label>
+									</div>
+							<div class="col-4 col-12-small">
+									<input id="Q3S2" value="b" name="question3" type="radio">
+									<label for="Q3S2">B. Understanding how it operates.</label>
+								</div>
+								<div class="col-4 col-12-small">
+										<input id="Q3S3" value="c" name="question3" type="radio">
+										<label for="Q3S3">C. Having teachers permission.</label>
+									</div>
+							<div class="col-4 col-12-small">
+									<input id="Q3S4" value="d" name="question3" type="radio">
+									<label for="Q3S4">D. All of the above are correct.</label>
+								</div>
