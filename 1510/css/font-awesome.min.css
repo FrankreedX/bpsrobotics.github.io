@@ -13,7 +13,8 @@
     font-weight:normal;
     line-height:1;
     -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale
+    -moz-osx-font-smoothing:grayscale;
+    text-decoration: none;
 }
 .fa-lg{
     font-size:1.3333333333333333em;
@@ -1287,4 +1288,3 @@
 .fa-plus-square-o:before{
     content:"\f196"
 }
- 
