@@ -465,6 +465,22 @@
 			font-size: 0.8em;
 		}
 
+		input[type="submit"].black,
+		input[type="reset"].black,
+		input[type="button"].black,
+		.button.black {
+			border-color: white;
+			color: white;
+		}
+
+			input[type="submit"].black:hover,
+			input[type="reset"].black:hover,
+			input[type="button"].black:hover,
+			.button.black:hover {
+				background: white;
+				color: inherit;
+			}
+
 /* Wrapper */
 
 	.wrapper {
@@ -804,6 +820,26 @@
 		font-weight: 700;
 	}
   /*user created*/
+	.button-wrapper{
+		color: #232221
+	}
+	.style6{
+		background-image: linear-gradient(#1e1d1b,#2f2e2c);
+		color: white;
+		height: 300px;
+	}
+	.style6 .major{
+		text-align: left;
+	}
+	.current-game{
+		text-align: right;
+		float: right;
+		padding-top: 0;
+	}
+	.current-text{
+		padding-top: 50px;
+		padding-left: 100px;
+	}
 	.inv{
 		visibility: hidden;
 	}
