@@ -20,6 +20,36 @@
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 		</noscript>
+		<script>
+			// Set the date we're counting down to
+			var countDownDate = new Date("Jan 5, 2019 07:00:00").getTime();
+
+			// Update the count down every 1 second
+			var x = setInterval(function() {
+
+			  // Get todays date and time
+			  var now = new Date().getTime();
+
+			  // Find the distance between now and the count down date
+			  var distance = countDownDate - now;
+
+			  // Time calculations for days, hours, minutes and seconds
+			  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+			  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+			  // Display the result in the element with id="demo"
+			  document.getElementById("clock").innerHTML = days + "d " + hours + "h "
+			  + minutes + "m " + seconds + "s ";
+
+			  // If the count down is finished, write some text
+			  if (distance < 0) {
+			    clearInterval(x);
+			    document.getElementById("timer").innerHTML = "Blast off: https://www.twitch.tv/firstinspires";
+			  }
+			}, 1000);
+		</script>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
@@ -80,6 +110,7 @@
 							<header class="major">
 								<h2>Now online:</h2>
 							</header>
+							<p id="timer">Time till kick-off: <span id="clock"></span></p>
 							<div class="button-wrapper">
 								<a href="http://info.firstinspires.org/destination-deep-space" class="button black">Find out more!</a>
 							</div>
@@ -90,51 +121,54 @@
 					<section>
               <div class="row flush">
                 <div class="3u align-mid">
-                    <a href="manuals/2018.pdf"><img src= "images/Games/2018.jpg" width="200"></a>
+                    <a href="manuals/2018.pdf"><img class="gamees" src= "images/Games/2018.jpg"></a>
                 </div>
                 <div class="3u align-mid">
-                    <a href="manuals/2017.pdf"><img src= "images/Games/2017.jpg" width="200"></a>
+                    <a href="manuals/2017.pdf"><img class="gamees" src= "images/Games/2017.jpg"></a>
                 </div>
                 <div class="3u align-mid">
-                    <a href="manuals/2016.pdf"><br><br><img src= "images/Games/2016.jpg" width="200"></a>
+                    <a href="manuals/2016.pdf"><br><br><img class="gamees" src= "images/Games/2016.jpg"></a>
                 </div>
                 <div class="3u align-mid">
-                    <a href="manuals/2015.pdf"><br><img src= "images/Games/2015.jpg" width="200"></a>
+                    <a href="manuals/2015.pdf"><br><img class="gamees" src= "images/Games/2015.jpg"></a>
+                </div>
+              </div>
+							<br>
+							<br>
+							<br>
+              <hr>
+              <div class="row flush">
+                <div class="3u align-mid">
+                    <a href="manuals/2014.pdf"><img class="gamees" src= "images/Games/2014.jpg"></a>
+                </div>
+                <div class="3u align-mid">
+                    <a href="manuals/2013.pdf"><br><img class="gamees" src= "images/Games/2013.jpg"></a>
+                </div>
+                <div class="3u align-mid">
+                    <a href="manuals/2012.pdf"><img class="gamees" src= "images/Games/2012.jpg"></a>
+                </div>
+                <div class="3u align-mid">
+                    <a href="manuals/2011.pdf"><br><img class="gamees" src= "images/Games/2011.jpg"></a>
                 </div>
               </div>
               <hr>
               <div class="row flush">
                 <div class="3u align-mid">
-                    <a href="manuals/2014.pdf"><img src= "images/Games/2014.jpg" width="200"></a>
+                    <a href="manuals/2010.pdf"><br><br><br><img class="gamees" src= "images/Games/2010.jpg" width="200"></a>
                 </div>
                 <div class="3u align-mid">
-                    <a href="manuals/2013.pdf"><br><img src= "images/Games/2013.jpg" width="200"></a>
+                    <a href="manuals/2009.pdf"><br><br><br><img class="gamees" src= "images/Games/2009.jpg" width="200"></a>
                 </div>
                 <div class="3u align-mid">
-                    <a href="manuals/2012.pdf"><img src= "images/Games/2012.jpg" width="200"></a>
+                    <a href="manuals/2008.pdf"><br><br><br><img class="gamees" src= "images/Games/2008.jpg" width="200"></a>
                 </div>
                 <div class="3u align-mid">
-                    <a href="manuals/2011.pdf"><br><img src= "images/Games/2011.jpg" width="200"></a>
-                </div>
-              </div>
-              <hr>
-              <div class="row flush">
-                <div class="3u align-mid">
-                    <a href="manuals/2010.pdf"><br><br><br><img src= "images/Games/2010.jpg" width="200"></a>
-                </div>
-                <div class="3u align-mid">
-                    <a href="manuals/2009.pdf"><br><br><br><img src= "images/Games/2009.jpg" width="200"></a>
-                </div>
-                <div class="3u align-mid">
-                    <a href="manuals/2008.pdf"><br><br><br><img src= "images/Games/2008.jpg" width="200"></a>
-                </div>
-                <div class="3u align-mid">
-                    <a href="manuals/2007.pdf"><br><img src= "images/Games/2007.jpg" width="200"></a>
+                    <a href="manuals/2007.pdf"><br><img class="gamees" src= "images/Games/2007.jpg" width="200"></a>
                 </div>
               </div>
               <div class="row flush">
                 <div class="12u align-mid">
-                    <a href="manuals/2006.pdf"><br><br><br><img src= "images/Games/2006.jpg" width="200"></a>
+                    <a href="manuals/2006.pdf"><br><br><br><img class="gamees" src= "images/Games/2006.jpg" width="200"></a>
                 </div>
               </div>
 					</section>
@@ -146,7 +180,7 @@
 			<section class="container">
 				<header class="major">
 					<h2>Connect with us</h2>
- 
+ 				  <span class="byline">Check out our social media</span>
 				</header>
 				<ul class="icons">
 					<li class="active"><a href="https://www.facebook.com/frc1510/" class="fa fa-facebook"><span>Facebook</span></a></li>

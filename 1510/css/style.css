@@ -594,7 +594,7 @@
 		text-transform: uppercase;
 		font-size: 2em;
 		font-weight: 400;
-		font-family: 'sofachrome', sans-serif;
+		font-family: '../fonts/sofachrome.otf', sans-serif;
 	}
 
 		#logo h1 {
@@ -921,6 +921,20 @@
 	.wrapper.style1.home {
 		padding-bottom: 285px;
 	}
+
 	.scroll:hover .fa {
 		padding-top:-10px;
+	}
+
+	.gamees{
+		width: 200px;
+		-moz-transition: all 0.35s ease-in-out;
+		-webkit-transition: all 0.35s ease-in-out;
+		-o-transition: all 0.35s ease-in-out;
+		-ms-transition: all 0.35s ease-in-out;
+		transition: all 0.35s ease-in-out;
+	}
+
+	.gamees:hover{
+		width: 250px;
 	}
