@@ -488,7 +488,7 @@
 	}
 
 		.wrapper.style1 {
-			background: #222222 url(../images/image.png) no-repeat;
+			background: #222222 url(../images/image.jpg) no-repeat;
 			background-size: cover;
 			padding: 0;
 		}
@@ -939,7 +939,6 @@
 	.gamees:hover{
 		width: 250px;
 	}
-
 	  /*preloader*/
 
 			.prelogo{
@@ -971,7 +970,7 @@
 	    margin: -175px 0 0 -175px;
 	    border-radius: 50%;
 	    border: 3px solid transparent;
-	    border-top-color: #e5e5e5; /*3498db*/
+	    border-top-color: #C21807; /*3498db*/
 
 	    -webkit-animation: spin 4s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
 	    animation: spin 4s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -988,7 +987,7 @@
 	        bottom: 5px;
 	        border-radius: 50%;
 	        border: 3px solid transparent;
-	        border-top-color: #e5e5e5; /*e74c3c*/
+	        border-top-color: #C21807; /*e74c3c*/
 
 	        -webkit-animation: spin 6s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
 	        animation: spin 6s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -1003,7 +1002,7 @@
 	        bottom: 15px;
 	        border-radius: 50%;
 	        border: 3px solid transparent;
-	        border-top-color: #e5e5e5;/*f9c922
+	        border-top-color: #C21807;/*f9c922
 
 	        -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
 	          animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
