@@ -10,19 +10,26 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.dropotron.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+		<script src="js/preload.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
+		<div id="loader-wrapper">
+			<div id="loader"></div>
+
+			<div class="loader-section section-left"></div>
+			<p class="loader prelogo">1510</p>
+            <div class="loader-section section-right"></div>
+
+		</div>
 		<!-- Header Wrapper -->
 			<div class="wrapper style1 home">
 
@@ -67,9 +74,9 @@
 			<!-- Banner -->
 				<div id="banner">
 					<section class="container">
+						<h3>Welcome to:</h3><br>
 						<h2>The Westview Wildcats</h2>
 						<span>A FIRST Robotics Team</span>
-						<p>Your wild adventure starts here</p>
 
 					</section>
 
@@ -85,11 +92,11 @@
 							<header class="major">
 								<h2>Who are the Wildcats?</h2>
 								<span class="byline">
-				 					We are 1510, an FRC (FIRST Robotics Competition) team based out of Westview High School in Portland.
-				  					We have members from a wide variety of schools around the district including Sunset, Mountainside, and ISB.
-				  					In this club students learn a variety of both technical and interpersonal skills that will assist them later in life, from manufacturing and designing to electrical and programming to even business and media.
-				  					We incorporate more than just science but also creativity and problem solving to provide an environment for students of all interests. You don't need to just be interested in engineering to join the wildcats, we have a position for everyone. Inclusivity is one of our top priorities and our team members come from all over. Our team is a great place to start your robotics journey.
-								</span>
+									We are 1510, an FRC (FIRST Robotics Competition) team based out of Westview High School in Portland.
+                                      We have members from a wide variety of schools around the district including Sunset, Mountainside, and ISB.
+                                      In this club, students learn a variety of both technical and interpersonal skills that will assist them later in life, from manufacturing and designing to electrical and programming to even business and media.
+                                      We incorporate more than just science but also creativity and problem solving to provide an environment for students of all interests. You don't need to just be interested in engineering to join the Wildcats, we have a position for everyone. Inclusivity is one of our top priorities and our team members come from all over. Our team is a great place to start your robotics journey.
+                </span>
 							</header>
 						</div>
 						<div>
@@ -126,7 +133,7 @@
                		<li>
 										<span class="fa fa-desktop"></span>
 										<h3>Computer-Aided Design</h3>
-										<p>Pretty much every engineering career requires you to know CAD or Computer Aided Design. This is the ability to design the object on the computer so that other people can replicate it. On our team, the CAD students design and create the robot digitally so that the whole team can build the robot based on that. </p>
+										<p>Every engineering career requires you to know CAD or Computer Aided Design. This is the ability to design the object on the computer so that other people can replicate it. On our team, the CAD students design and create the robot digitally so that the whole team can build the robot based on that. </p>
 								</li>
 							</div>
 							<div class="2u"><p></p></div>
@@ -134,7 +141,7 @@
 								<li>
                 	<span class="fa fa-wrench"></span>
 									<h3>Mechanical</h3>
-									<p>Mechanical is an essential skill needed for the real word. It allows you to be able to construct and fix things in your everyday life. Our students in the mechanical sub team construct all of the peices of the robot including the frame and mechanisms. </p>
+									<p>Mechanical is an essential skill needed for the real word. It allows you to be able to construct and fix things in your everyday life. Our students in the mechanical subteam construct all of the pieces of the robot including the frame and mechanisms. </p>
 								</li>
 							</div>
 						</div>
@@ -142,8 +149,8 @@
 							<div class="5u">
 								<li>
 									<span class="fa fa-power-off"></span>
-									<h3>Eletrical</h3>
-									<p>As the bloodline of the bot, the electrical team here wire components, motors, power etc. together and handles the pneumatic system.Students here learn the ins and outs of the FRC electrical system and also real life electrical systems' applications and knowledge as well. </p>
+									<h3>Electrical</h3>
+									<p>As the bloodline of the bot, the electrical team here wire components, motors, power etc. together and handles the pneumatic system. Students here learn the ins and outs of the FRC electrical system and also real-life electrical systems' applications and knowledge as well. </p>
 								</li>
 							</div>
 							<div class="2u"><p></p></div>
@@ -151,7 +158,7 @@
 								<li>
 									<span class="fa fa-terminal"></span>
 									<h3>Programming</h3>
-									<p>Programming is a very sucessful and rewarding career that allows you to receive a generous income. The students in this team program the robot and make sure it can actually run. </p>
+									<p>Programming is a very successful and rewarding career that allows you to receive a generous income. The students in this team program the robot and make sure it can actually run. </p>
 								</li>
 							</div>
 							<div class="row flush">
