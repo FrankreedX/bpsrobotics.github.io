@@ -9,23 +9,6 @@ Team 2898 maintainer:	[@Dat1AZNBanana](https://github.com/Dat1AZNBanana)
 While we use GitHub Pages just because we can, some advanced website features will not work, such as our PHP apps (ie: safety tests).  As such, we do not recommend you use the GitHub pages site as a link to give out to prospective students, mentors, or parents.  It's just a convenience for us developers.
 ## Site Layout
 The site is divided into four major sections, the homepage for BPSRobotics, an apps section, and a section for each team (FRC 1510, The Wildcats; FRC 2898, The Flying Hedgehogs).  This may be expanded in the future, depending on how involved we get with other teams in Beaverton.
-
-
-For those who just want a pretty picture:
-```
-bpsrobotics.github.io
-+---1510
-|	\---...
-+---2898
-|	\---...
-+---apps
-|	+---phpapps -> git://github.com/bpsrobotics/bpsrobotics.github.io.git
-|	|	\---safety
-|	\---
-\---...
-```
-This tree has been pruned for simplicity.  You get the idea.
-
 ## Contribution Guide
 We prefer code to come from team members.  You can still try to contribute if you want, but there's no guarantee that your code will be accepted.
 ### Coding style
