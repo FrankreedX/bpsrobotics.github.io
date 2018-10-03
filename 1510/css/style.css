@@ -9,6 +9,11 @@
 
 /* Basic */
 
+@font-face {
+  font-family: "sofachrome";
+  src: url("../fonts/sofachrome.otf") format("opentype");
+}
+
 	body {
 		background: #222222;
 	}
