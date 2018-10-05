@@ -39,6 +39,30 @@
 			background-size: cover;
 			background-position: bottom;
 		}
+
+		.current-game{
+		  float: none;
+    display: block;
+    justify-content: center;
+    align-items: center;
+		}
+
+		.current-wrapper{
+		  background-color: #1e1d1b;
+		}
+
+		.current-game img{
+		  width: 100vw;
+		  object-fit: cover;
+		}
+
+	.style6 .major{
+	  position: absolute;
+	  visibility:hidden;
+	}
+	#timer{
+	  text-align: center;
+	}
 /* Lists */
 
 	ul.icons li a {
