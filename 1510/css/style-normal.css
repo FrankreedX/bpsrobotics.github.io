@@ -9,3 +9,11 @@
 	body, input, select, textarea {
 		font-size: 11pt;
 	}
+
+	#logo{
+		visibility: hidden;
+	}
+
+	nav{
+		align-items: center;
+	}

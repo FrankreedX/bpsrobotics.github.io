@@ -17,7 +17,6 @@
 	body {
 		background: #222222;
 	}
-
 		body.loading * {
 			-moz-transition: none !important;
 			-webkit-transition: none !important;
@@ -852,7 +851,7 @@
 	}
 	.current-text{
 		padding-top: 50px;
-		padding-left: 100px;
+		padding-left: 3%;
 	}
 	.inv{
 		visibility: hidden;
@@ -1129,3 +1128,36 @@
 	    .no-js #loader-wrapper {
 	        display: none;
 	    }
+
+      @media only screen and (max-width: 1360px) {
+      		.current-game{
+      		  float: none;
+          display: block;
+          justify-content: center;
+          align-items: center;
+      		}
+
+      		.current-wrapper{
+      		  background-color: #1e1d1b;
+      		}
+
+      		.current-game img{
+      		  width: 100vw;
+      		  object-fit: contain;
+      		}
+
+          .current-text{
+            padding-right: 4%;
+          }
+
+      	.style6 .major{
+      	  position: absolute;
+      	  visibility:hidden;
+      	}
+      	#timer{
+      	  text-align: center;
+      	}
+        .button-wrapper{
+          text-align: center;
+        }
+      }
