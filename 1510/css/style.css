@@ -65,7 +65,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
 		font-weight: bold;
-		font-family: 'Raleway', arial;
+		font-family: 'Quicksand', arial;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -600,6 +600,7 @@
 		font-weight: 400;
 		font-family: 'sofachrome', sans-serif;
 		color: white;
+
 	}
 
 		#logo h1 {
