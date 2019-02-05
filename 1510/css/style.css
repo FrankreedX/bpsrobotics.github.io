@@ -940,7 +940,8 @@
 	}
 
 	.gamees{
-		width: 200px;
+		width: 250px;
+    padding-bottom: 50px;
 		-moz-transition: all 0.35s ease-in-out;
 		-webkit-transition: all 0.35s ease-in-out;
 		-o-transition: all 0.35s ease-in-out;
@@ -949,7 +950,8 @@
 	}
 
 	.gamees:hover{
-		width: 250px;
+		width: 300px;
+    padding-bottom: 0px;
 	}
 
       @media only screen and (max-width: 1360px) {
